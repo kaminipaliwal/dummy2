@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-
 const options = {
   connectTimeoutMS: 200000,
   socketTimeoutMS: 2000000,
