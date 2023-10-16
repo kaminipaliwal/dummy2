@@ -17,13 +17,13 @@ afterEach(() => {
 });
 describe("Login", () => {
     test("Check Email Is Valid", async () => {
-        let userName = "lalit@gmail.com";
+        let userName = "kamini@gmail.com";
         let data = await userService.checkIsEmail(userName);
         expect(data).toBe(true);
     })
 
     test("Check Email Is Not Valid", async () => {
-        let userName = "lalitgmail.com";
+        let userName = "kaminigmail.com";
         let data = await userService.checkIsEmail(userName);
         expect(data).toBe(false);
     })
